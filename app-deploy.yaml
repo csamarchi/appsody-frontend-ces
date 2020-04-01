@@ -67,6 +67,7 @@ metadata:
     stack.appsody.dev/id: nodejs-express
     stack.appsody.dev/version: 0.2.10
   name: appsody-frontend-ces
+namespace: ces-kabanero-nodejs
 spec:
   applicationImage: dev.local/appsody-frontend-ces
   createKnativeService: false
