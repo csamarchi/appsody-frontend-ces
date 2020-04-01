@@ -10,7 +10,7 @@ var app = express();
 
 let BACKEND_API_DEFAULT_PORT = 3001;
 
-// view engine setup
+// view engine setups
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
